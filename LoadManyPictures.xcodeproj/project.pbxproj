@@ -13,6 +13,8 @@
 		57E85CE62074C0A7007B1D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E85CE52074C0A7007B1D60 /* Assets.xcassets */; };
 		57E85CE92074C0A7007B1D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E85CE72074C0A7007B1D60 /* LaunchScreen.storyboard */; };
 		57E85CEC2074C0A7007B1D60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E85CEB2074C0A7007B1D60 /* main.m */; };
+		57E85CF32074C4FE007B1D60 /* pictures.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57E85CF22074C1AF007B1D60 /* pictures.plist */; };
+		57E85CF62074CBCF007B1D60 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E85CF52074CBCF007B1D60 /* ImageModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		57E85CE82074C0A7007B1D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57E85CEA2074C0A7007B1D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57E85CEB2074C0A7007B1D60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57E85CF22074C1AF007B1D60 /* pictures.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = pictures.plist; sourceTree = "<group>"; };
+		57E85CF42074CBCF007B1D60 /* ImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
+		57E85CF52074CBCF007B1D60 /* ImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				57E85CDD2074C0A7007B1D60 /* AppDelegate.m */,
 				57E85CDF2074C0A7007B1D60 /* ViewController.h */,
 				57E85CE02074C0A7007B1D60 /* ViewController.m */,
+				57E85CF42074CBCF007B1D60 /* ImageModel.h */,
+				57E85CF52074CBCF007B1D60 /* ImageModel.m */,
+				57E85CF22074C1AF007B1D60 /* pictures.plist */,
 				57E85CE22074C0A7007B1D60 /* Main.storyboard */,
 				57E85CE52074C0A7007B1D60 /* Assets.xcassets */,
 				57E85CE72074C0A7007B1D60 /* LaunchScreen.storyboard */,
@@ -132,6 +140,7 @@
 				57E85CE92074C0A7007B1D60 /* LaunchScreen.storyboard in Resources */,
 				57E85CE62074C0A7007B1D60 /* Assets.xcassets in Resources */,
 				57E85CE42074C0A7007B1D60 /* Main.storyboard in Resources */,
+				57E85CF32074C4FE007B1D60 /* pictures.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +154,7 @@
 				57E85CE12074C0A7007B1D60 /* ViewController.m in Sources */,
 				57E85CEC2074C0A7007B1D60 /* main.m in Sources */,
 				57E85CDE2074C0A7007B1D60 /* AppDelegate.m in Sources */,
+				57E85CF62074CBCF007B1D60 /* ImageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

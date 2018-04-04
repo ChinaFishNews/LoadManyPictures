@@ -10,4 +10,10 @@
 
 @interface ImageModel : NSObject
 
+@property (nonatomic, copy) NSString *icon;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *download;
+
++ (instancetype)modelWithDict:(NSDictionary *)dict;
+
 @end

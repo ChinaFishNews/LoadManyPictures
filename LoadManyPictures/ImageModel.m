@@ -10,4 +10,10 @@
 
 @implementation ImageModel
 
++ (instancetype)modelWithDict:(NSDictionary *)dict {
+    ImageModel *model = [[self alloc] init];
+    [model setValuesForKeysWithDictionary:dict];
+    return model;
+}
+
 @end
